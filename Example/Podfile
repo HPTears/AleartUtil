@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+source 'http://git.xksquare.com/XK-iOS-Component/xkRepo.git'
+
+platform :ios, '10.0'
+
+target 'XKAlertUtil_Example' do
+  pod 'XKAlertUtil', :path => '../'
+end
